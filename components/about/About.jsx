@@ -84,17 +84,17 @@ const About = () => {
             the readable content of a page when looking at its layout.
           </p>
         </div>
-        <div class="sm:block hidden">
-          <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-slate-800 dark:text-indigo-600 mt-6">
+        <div>
+          <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-indigo-600 mt-6">
             400k User
           </p>
-          <p class="font-normal text-base leading-6 text-slate  -600 dark:text-slate-800 mt-6">
+          <p class="font-normal text-base leading-6 text-gray-600 dark:text-slate-800 mt-6">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
         </div>
       </div>
-      <div class="sm:hidden block relative mt-8">
+      <div class="hidden block relative mt-8">
         <div class="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
           <img
             src="https://tuk-cdn.s3.amazonaws.com/can-uploader/about-us-3-svg3.svg"
@@ -103,12 +103,12 @@ const About = () => {
         </div>
         <hr class="z-10 absolute top-2/4 w-full bg-gray-200" />
       </div>
-      <div class="sm:hidden grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+      <div class="hidden grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
         <div>
-          <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-white mt-6">
+          <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-indigo-600 mt-6">
             400k User
           </p>
-          <p class="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">
+          <p class="font-normal text-base leading-6 text-gray-600 dark:text-slate-800 mt-6">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
